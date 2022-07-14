@@ -1,0 +1,5 @@
+drop table account;
+drop table deposite;
+drop table withdrawl;
+drop table transfer;
+drop table id;

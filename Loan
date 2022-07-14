@@ -1,0 +1,7 @@
+create table Loan(
+Acc_No_ int,
+Name Varchar(30),
+Loan_Amount int,
+Date date,
+Transaction_ID Varchar(30)
+);

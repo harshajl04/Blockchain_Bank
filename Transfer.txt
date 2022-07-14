@@ -1,0 +1,12 @@
+create table Transfer(
+ANOR int,
+NOR varchar(25),
+ANOS int,
+NOS  varchar(25),
+Amount int(12),
+Transaction_ID varchar(30),
+foreign key (ANOR) references Account(Acc_No_),
+foreign key (ANOS) references Account(Acc_No_)
+);
+
+alter table transfer add column Amount int;

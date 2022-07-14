@@ -1,0 +1,10 @@
+create table deposit(
+Acc_No_  int,
+Name varchar(25),
+Date date,
+Amount int,
+Transaction_ID varchar(30),
+foreign key (Acc_No_) references Account(Acc_No_)
+);
+
+

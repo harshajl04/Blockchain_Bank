@@ -1,0 +1,8 @@
+create table account(
+Acc_No_ int Primary key,
+Name varchar(25),
+Father_Name varchar(25),
+Mother_Name varchar(25),
+DOB date,
+Balance int
+);

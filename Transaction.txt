@@ -1,0 +1,6 @@
+create table transaction(
+Transaction_ID varchar(30),
+Acc_No_ int
+);
+
+rename table transaction to ID;
